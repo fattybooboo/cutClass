@@ -1,0 +1,162 @@
+.header {
+    background-image: url('../img/banner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 958px;
+    position: relative;
+}
+
+.header-main {
+    position: absolute;
+    top: 356px;
+    left: 806px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 304px;
+}
+
+.text-color-w {
+    color: #fff;
+}
+
+.text-color-b {
+    color: #000000;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.header-main-title-text-style {
+    font: italic normal bold 24px/42px Roboto;
+    letter-spacing: 0;
+}
+
+.header-main-main-text-style {
+    font: italic normal 900 80px/94px Roboto;
+    letter-spacing: 0;
+}
+
+.header-main-content-text-style {
+    align-self: center;
+    font: italic normal bold 24px/36px Roboto;
+    letter-spacing: 0;
+}
+
+.header-main-content-text-mt {
+    margin-top: 32px;
+    padding: 0 10px;
+}
+
+.header-main-btn {
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+.header-main-btn-size {
+    width: 60px;
+    height: 60px;
+}
+
+.about-title {
+    margin-top: 64px;
+}
+
+.about-title-style {
+    font: italic normal medium Roboto;
+    font-size: 64px;
+    line-height: 75px;
+}
+
+.about-photo-size {
+    display: block;
+    width: 384px;
+    height: 384px;
+    margin: 40px auto 0 auto;
+}
+
+.about-name-style {
+    font: italic normal bold 24px/42px Roboto;
+}
+
+.about-day-style {
+    font: italic normal bold 24px/42px Roboto;
+    padding: 8px;
+}
+
+.about-overview-style {
+    max-width: 412px;
+    margin: 0 auto 28px auto;
+    font: italic normal bold 24px/36px Roboto;
+}
+
+.about-li-style {
+    list-style: none;
+}
+
+.about-li-style  li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #891818; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 22px; /* Also needed for space (tweak if needed) */
+    margin-right: 16px; /* Also needed for space (tweak if needed) */
+    font-size:22px;
+    vertical-align:middle;
+    line-height:22px;
+}
+
+.about-li-style  li {
+    font: italic normal bold 24px/42px Roboto;
+}
+
+.about-ul-m {
+    margin-bottom: 56px;
+
+}
+
+.brand {
+    background-color: #000000;
+}
+
+.brand-title-style {
+    padding-top: 64px;
+    font: italic normal medium Roboto;
+    font-size: 64px;
+    line-height: 75px;
+}
+.brand-subtitle-style {
+    font: italic normal medium Roboto;
+    font-size: 24px;
+    line-height: 42px;
+}
+.brand-overview-style {
+    font: italic normal medium Roboto;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.brand-overview-first-m {
+    margin-top: 32px;
+}
+
+.other-works-title-style {
+    margin-top: 64px;
+    font: italic normal medium Roboto;
+    font-size: 64px;
+    line-height: 75px;
+}
+
+.other-works-subtitle-style {
+    font: italic normal medium Roboto;
+    font-size: 20px;
+    line-height: 30px;
+}
