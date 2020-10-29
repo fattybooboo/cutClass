@@ -42,13 +42,20 @@
 
 .header-main-content-text-style {
     align-self: center;
-    font: italic normal bold 24px/36px Roboto;
+    font: italic normal bold 22px/36px Roboto;
     letter-spacing: 0;
+}
+.header-main-content-text-w {
+    width: 312px;
+
+}
+
+.header-main-content-text-p {
+    padding: 0 10px;
 }
 
 .header-main-content-text-mt {
     margin-top: 32px;
-    padding: 0 10px;
 }
 
 .header-main-btn {
@@ -85,6 +92,7 @@
 
 .about-name-style {
     font: italic normal bold 24px/42px Roboto;
+    margin-top: 24px;
 }
 
 .about-day-style {
@@ -148,6 +156,22 @@
     margin-top: 32px;
 }
 
+.brand-img-box-pb {
+    padding-bottom: 160px;
+}
+.brand-img-top {
+    display: block;
+    margin: 68px auto 40px auto;
+}
+
+.brand-img-left {
+    display: inline-block;
+    margin-right: 12px;
+}
+.brand-img-right {
+    display: inline-block;
+    margin-left: 12px;
+}
 .other-works-title-style {
     margin-top: 64px;
     font: italic normal medium Roboto;
@@ -159,4 +183,65 @@
     font: italic normal medium Roboto;
     font-size: 20px;
     line-height: 30px;
+}
+
+.other-works-img-box {
+    padding: 0 348px;
+}
+
+.other-works-img-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.other-works-img-flex > div {
+    margin: 0 12px 56px 12px;
+}
+
+.other-works-img-top-w3 {
+    width: 384px;
+    height: 528px;
+}
+.other-works-img-mid-w2 {
+    width: 588px;
+    height: 424px;
+}
+.other-works-img-bottom-w3 {
+    width: 384px;
+    height: 280px;
+}
+
+.other-works-img-title-style {
+    margin-top: 16px;
+    font: italic normal medium Roboto;
+    font-size: 20px;
+    line-height: 42px;
+}
+
+.other-works-subtitle-m {
+    margin: 24px 0 56px 0;
+}
+
+.footer {
+    background-color: black;
+    padding: 64px 0 80px 0;
+}
+
+.footer-title-mb {
+    margin-bottom: 16px;
+}
+
+.footer-title-style {
+    font: italic normal medium Roboto;
+    font-size: 64px;
+    line-height: 75px;
+}
+
+.footer-mail-style {
+    font: italic normal medium Roboto;
+    font-size: 24px;
+    line-height: 36px;
 }
