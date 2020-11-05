@@ -1,12 +1,27 @@
 .wrap {
     display: flex;
     flex-direction: column;
+    background-color: #AA0601;
 }
 
 .header {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    height: 108px;
+    padding: 0 88px;
+}
 
+.header span {
+    margin: 0 32px;
+    font: normal normal normal Noto Sans;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+}
+
+.header span:last-child {
+    margin-left: 32px;
 }
 
 .main {
