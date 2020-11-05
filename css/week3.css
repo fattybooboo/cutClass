@@ -1,7 +1,6 @@
 .wrap {
     display: flex;
     flex-direction: column;
-    height: 100%;
 }
 
 .header {
@@ -25,8 +24,31 @@
 }
 
 .main {
-
+    flex-grow: 1;
+    position: relative;
 }
+.main img {
+    display: block;
+}
+.main-img-title-box {
+    position: absolute;
+    top: 41.666%;
+    right: 21.093%;
+}
+
+.main-img-title-subtitle, .main-img-title-title {
+    color: #650300;
+    text-align: right;
+}
+
+.main-img-title-subtitle {
+    font: normal normal normal 36px/54px Noto Sans;
+}
+
+.main-img-title-title {
+    font: normal normal bold 64px/96px Noto Sans;
+}
+
 
 .footer {
     background-color: #AA0601;
