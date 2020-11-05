@@ -25,10 +25,10 @@
 
 .main {
     flex-grow: 1;
-    position: relative;
 }
 .main img {
     display: block;
+    position: relative;
 }
 .main-img-title-box {
     position: absolute;
@@ -47,6 +47,50 @@
 
 .main-img-title-title {
     font: normal normal bold 64px/96px Noto Sans;
+}
+
+.main-text-box, .main-classic-box {
+    max-width: 1200px;
+}
+.main-text-box {
+    margin: 64px auto 80px auto;
+}
+
+.main-text-title {
+    text-align: center;
+    font: normal normal bold 48px/72px Noto Sans;
+}
+
+.main-text-subtitle-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.main-text-subtitle-box .box-w {
+    max-width: 80%;
+}
+
+.main-text-subtitle-box div > img {
+    display: block;
+    margin: 0 auto;
+    min-height: 100px;
+}
+
+.main-text-subtitle-box div .box-card-title {
+    color: #650300;
+    font: normal normal bold 24px/36px Noto Sans;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.main-text-subtitle-box div .box-card-subtitle {
+    font: normal normal normal 16px/24px Noto Sans;
+    text-align: left;
+    margin: 0 38px;
 }
 
 
