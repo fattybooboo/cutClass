@@ -1,15 +1,15 @@
 .wrap {
     display: flex;
     flex-direction: column;
-    background-color: #AA0601;
+    height: 100%;
 }
 
 .header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: 108px;
-    padding: 0 88px;
+    padding: 30px 88px;
+    background-color: #AA0601;
 }
 
 .header span {
@@ -29,5 +29,101 @@
 }
 
 .footer {
+    background-color: #AA0601;
+    padding: 36px 0 29px 0;
+}
 
+.footer-main {
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-main-btn-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.footer-main-btn-ul {
+    margin-right: auto;
+}
+.footer-main-btn-ul li {
+    display: inline;
+    margin: 0 24px;
+    font: normal normal normal 16px/24px Noto Sans;
+    color: #fff;
+}
+
+.footer-main-btn-ul li:first-child {
+    margin-left: 0;
+}
+
+.footer-main-btn-img img{
+    display: inline;
+    margin-left: 32px;
+}
+
+.footer-main-btn-img img:first-child{
+    margin-left: 0;
+}
+
+.footer-main-tel, .footer-main-mail {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.footer-main-tel {
+    margin-top: 18px;
+}
+
+.footer-main-mail {
+    margin-top:17px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #fff;
+}
+
+.footer-main-tel-text, .footer-main-mail-text {
+    color: #fff;
+    font: normal normal normal 36px/54px Roboto;
+}
+
+.footer-main-tel-text-ml {
+    margin-left: 17px;
+}
+
+.footer-main-mail-text-ml {
+    margin-left: 12px;
+}
+
+.footer-main-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.footer-main-logo img {
+    display: inline;
+}
+
+.footer-main-logo span {
+    font: normal normal normal 14px/21px Noto Sans;
+    color: #fff;
+}
+
+.footer-main-logo-text {
+    margin-left: 38px;
+    margin-right: auto;
+}
+
+
+.footer-main-logo span:last-child {
+    margin-left: 62px;
 }
