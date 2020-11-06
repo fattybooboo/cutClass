@@ -132,4 +132,23 @@
         line-height: 25px;
     }
 
+    .main-custom-box-title {
+        font-size: 32px;
+        line-height: 48px;
+        margin-bottom: 32px;
+    }
+
+    .box-cards .box-w {
+        max-width: 330px;
+    }
+
+    .box-cards .box-m-ml {
+        margin-top: 28px;
+    }
+
+    .main-custom-box .box-cards {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
 }

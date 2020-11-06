@@ -251,13 +251,13 @@
     border: 1px solid #DEE2E6;
 }
 
-.box-cards .box-w:first-child {
-    margin-left: 0;
-}
+/*.box-cards .box-w:first-child {*/
+/*    margin-left: 0;*/
+/*}*/
 
-.box-cards .box-w:last-child {
-    margin-right: 0;
-}
+/*.box-cards .box-w:last-child {*/
+/*    margin-right: 0;*/
+/*}*/
 
 .box-cards .box-w img {
     width: 100%;
