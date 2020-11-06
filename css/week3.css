@@ -329,8 +329,16 @@ form .form-input-box-check {
     margin-top: 16px;
 }
 
-form .form-input-box-check * {
-    display: inline-block;
+form .form-input-box-check {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+#boxCheck {
+    margin: 2px;
 }
 
 form .form-btn-box {

@@ -22,6 +22,10 @@
         padding: 40px 0;
     }
 
+    .main-form-box-w {
+        padding: 40px 139px;
+    }
+
     .main img.main-img-lg {
         display: none;
     }
@@ -149,6 +153,22 @@
     .main-custom-box .box-cards {
         flex-wrap: wrap;
         justify-content: center;
+    }
+
+    .main-form-box-title {
+        margin-bottom: 16px;
+        font-size: 32px;
+        line-height: 48px;
+    }
+
+    form .form-btn-box {
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+
+    form .form-btn {
+        width: 210px;
+        height: 36px;
     }
 
 }
