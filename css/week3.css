@@ -394,6 +394,8 @@ form .form-btn {
 .footer-main-btn-img img{
     display: inline;
     margin-left: 32px;
+    width: 48px;
+    height: 48px;
 }
 
 .footer-main-btn-img img:first-child{
@@ -406,6 +408,11 @@ form .form-btn {
     flex-wrap: nowrap;
     align-items: center;
     justify-content: flex-start;
+}
+
+.footer-main-tel img, .footer-main-mail img {
+    width: 44px;
+    height: 44px;
 }
 
 .footer-main-tel {

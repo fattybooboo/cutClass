@@ -171,4 +171,32 @@
         height: 36px;
     }
 
+    .footer-main-btn-img img{
+        margin-left: 24px;
+        width: 24px;
+        height: 24px;
+    }
+
+    .footer-main-tel img, .footer-main-mail img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .footer-main-tel-text, .footer-main-mail-text {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .footer-main-logo img {
+        display: none;
+    }
+
+    .footer-main-logo-text {
+        margin-left: 0;
+    }
+
+    .footer-main-logo span:last-child {
+        margin-left: 24px;
+    }
+
 }
