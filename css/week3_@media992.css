@@ -1,0 +1,33 @@
+@media all and (max-width: 992px) {
+    .header {
+        padding: 30px 39px;
+    }
+
+    .header span {
+        margin: 0 20px;
+    }
+
+    .main img.main-img-lg {
+        display: none;
+    }
+
+    .main img.main-img-ml {
+        display: block;
+    }
+
+    .main-img-title-box {
+        top: 44.285%;
+        right: 5.078%;
+    }
+
+    .main-img-title-subtitle {
+        font: normal normal medium PingFang TC;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .main-img-title-title {
+        font-size: 48px;
+        line-height: 72px;
+    }
+}
