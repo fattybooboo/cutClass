@@ -53,14 +53,15 @@
 
 .main-text-box,
 .main-classic-box,
-.main-custom-box,
-.main-form-box {
+.main-custom-box {
     max-width: 1200px;
     margin: 64px auto 80px auto;
 }
 
-.main-form-box {
+.main-form-box-w {
     max-width: 730px;
+    padding: 64px 0 80px 0;
+    margin: 0 auto;
 }
 
 .main-text-title {
@@ -248,6 +249,10 @@
     color: #707070;
 }
 
+.main-form-box {
+    background-color: #AA06010D;
+}
+
 .main-form-box-title {
     margin-bottom: 24px;
     text-align: center;
@@ -287,6 +292,28 @@ form .form-input-box * {
 
 .form-input-box:first-of-type {
     margin-top: 20px;
+}
+
+form .form-input-box-check {
+    margin-top: 16px;
+}
+
+form .form-input-box-check * {
+    display: inline-block;
+}
+
+form .form-btn-box {
+    margin-top: 64px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+form .form-btn {
+    width: 350px;
+    height: 64px;
+    background: #AA0601;
+    color: #fff;
+    border: none;
+    outline: none;
 }
 
 .footer {
