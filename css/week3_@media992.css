@@ -18,6 +18,10 @@
         padding: 40px 39px;
     }
 
+    .main-feat-box {
+        padding: 40px 0;
+    }
+
     .main img.main-img-lg {
         display: none;
     }
@@ -107,4 +111,25 @@
     .main-classic-img-box + .main-classic-img-box {
         margin-top: 8px;
     }
+
+    .main-feat-box-title {
+        font-size: 32px;
+        line-height: 48px;
+    }
+
+    .main-feat-box-img {
+        margin-top: 32px;
+    }
+
+    .main-feat-box-img .img-box-left, .main-feat-box-img .img-box-right {
+        width: 330px;
+        height: 280px;
+        background-size: 100%;
+    }
+
+    .img-box-white .img-title {
+        font-size: 32px;
+        line-height: 25px;
+    }
+
 }
