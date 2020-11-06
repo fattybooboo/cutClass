@@ -323,6 +323,7 @@ form .form-btn {
 
 .footer-main {
     margin: 0 auto;
+    padding: 0 43px;
     max-width: 1200px;
     display: flex;
     flex-direction: column;
@@ -333,7 +334,6 @@ form .form-btn {
     display: flex;
     flex-direction: row;
     align-items: center;
-
 }
 
 .footer-main-btn-ul {
@@ -346,7 +346,7 @@ form .form-btn {
     color: #fff;
 }
 
-.footer-main-btn-ul li:first-child {
+.footer-main-btn-ul li:first-of-type {
     margin-left: 0;
 }
 
