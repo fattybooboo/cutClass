@@ -51,9 +51,16 @@
     font: normal normal bold 64px/96px Noto Sans;
 }
 
-.main-text-box, .main-classic-box, .main-custom-box {
+.main-text-box,
+.main-classic-box,
+.main-custom-box,
+.main-form-box {
     max-width: 1200px;
     margin: 64px auto 80px auto;
+}
+
+.main-form-box {
+    max-width: 730px;
 }
 
 .main-text-title {
@@ -241,6 +248,46 @@
     color: #707070;
 }
 
+.main-form-box-title {
+    margin-bottom: 24px;
+    text-align: center;
+    font: normal normal bold 48px/72px Noto Sans;
+}
+
+.main-form-box-subtitle {
+    text-align: left;
+    font: normal normal normal 20px/30px Noto Sans;
+}
+
+form .form-input-box * {
+   display: block;
+}
+
+.form-input-box label {
+    font: normal normal normal 16px/24px Noto Sans;
+}
+
+.form-input-box input {
+    line-height: 50px;
+}
+
+.form-input-box input, .form-input-box textarea  {
+    font: normal normal normal 16px/24px Noto Sans;
+    width: 100%;
+    padding: 14px 16px;
+}
+
+.form-input-box input::placeholder, .form-input-box textarea::placeholder {
+    opacity: 0.2;
+}
+
+.form-input-box + .form-input-box {
+    margin-top: 16px;
+}
+
+.form-input-box:first-of-type {
+    margin-top: 20px;
+}
 
 .footer {
     background-color: #AA0601;
