@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="729f7554-5ed2-4b4c-b7f3-015a23e5b25b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/week3.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/week3.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/week3_@media992.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/week3_@media992.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/week3/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +52,8 @@
       <option name="presentableId" value="Default" />
       <updated>1603984318075</updated>
       <workItem from="1603984319780" duration="8951000" />
-      <workItem from="1604574181743" duration="16755000" />
+      <workItem from="1604574181743" duration="16826000" />
+      <workItem from="1604658972966" duration="130000" />
     </task>
     <servers />
   </component>
@@ -66,5 +65,9 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="360" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1603987836522" />
+    <state x="-1295" y="281" width="670" height="676" key="search.everywhere.popup" timestamp="1604659078159">
+      <screen x="-1920" y="40" width="1920" height="1080" />
+    </state>
+    <state x="-1295" y="281" width="670" height="676" key="search.everywhere.popup/-1920.40.1920.1080/0.0.1792.1120@-1920.40.1920.1080" timestamp="1604659078159" />
   </component>
 </project>
