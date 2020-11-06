@@ -130,14 +130,24 @@
 }
 
 .main-classic-img-box {
-    display: flex;
     flex-direction: row;
     align-items: center;
 }
 
+.main-classic-img-box-f {
+    display: flex;
+}
+
+.main-classic-img-box.showImg-lg {
+    display: flex;
+}
+
+.main-classic-img-box.showImg-ml {
+    display: none;
+}
+
 .main-classic-img-box img {
     display: inline;
-
 }
 
 .main-classic-img-box .img-w {
